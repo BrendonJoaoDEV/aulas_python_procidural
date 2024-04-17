@@ -9,11 +9,11 @@ import os
 
 
 # Limpando o terminal
-os.system( 'cls' )
+os.system('cls')
 
 # O comando print() executa uma saída via terminal
 
-print( '_' * 70)
-print( 'Hello World!!!!' )
-print( '_' * 70)
+print('_' * 70)
+print('Hello World!!!!')
+print('_' * 70)
 print()
