@@ -26,4 +26,5 @@ PI = 3.14  # Isso é uma CONSTANTE, seu valor não deve ser alterado
 # Saída utilizando o método type() para verificar o tipo da variável
 print("\033 [0m \033 [31mTipos declarados:\033 [0m")
 print("\033 [0m A var \033 [32m nome \033 [0m é do tipo: ", type(nome))
-print("\033 [0m A var \033 [32m nascimento \033 [0m é do tipo: ",
+print("\033 [0m A var \033 [32m nascimento \033 [0m é do tipo: ", type(nascimento))
+print("\033 [0m A var \033 [32m altur \033[Om é do tipo: ]", type(altura))
