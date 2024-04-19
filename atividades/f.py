@@ -8,6 +8,7 @@
 import os
 
 
+# Limpar o terminal
 os.system('cls')
 
 # Entrada
