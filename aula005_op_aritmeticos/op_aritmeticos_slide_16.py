@@ -53,4 +53,3 @@ print(f'A soma de {parcela_1} + {parcela_2} é: {soma}')
 print(f'A subtração de {minuendo} - {subtraendo} é: {diferenca}')
 print(f'A multiplicação de {multiplicando} x {multiplicador} é: {produto}')
 print(f'A divisão de {dividendo} ÷ {divisor} é: {quociente}')
-

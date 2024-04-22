@@ -1,7 +1,7 @@
-# Curso de Desenvolvimento de Sistemas
-# Turma: 0152
-# Autor: Brendon João Campos Neves
-# Data: 19/04/2024
+# Curso de Desenvolvimento de Sistemas.
+# Turma: 0152.
+# Autor: Brendon João Campos Neves.
+# Data: 19/04/2024.
 # Faça um programa que receba um número inteiro e mostre o sucessor e antecessor.
 
 # Imports
