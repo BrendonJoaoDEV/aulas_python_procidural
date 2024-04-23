@@ -4,23 +4,23 @@
 # Data: 19/04/2024.
 # Faça um programa que receba um número inteiro e mostre o sucessor e antecessor.
 
-# Imports
+# Imports.
 import os
 
 
-# Limpar o terminal
+# Limpar o terminal.
 os.system('cls')
 
-# Entrada
+# Entrada.
 print('-'*70)
 numero = int(input('Digite um número inteiro: '))
 print('-'*70)
 
-# Processamento
+# Processamento.
 antecessor = numero - 1
 sucessor = numero + 1
 
-# Saída
+# Saída.
 print('='*70)
 print(f'O antecessor de {numero} é: {antecessor}')
 print(f'O sucessor de {numero} é: {sucessor}')

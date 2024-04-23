@@ -4,23 +4,23 @@
 # Data:19/04/2024.
 # Faça um programa que converta metros em centímetros e milímetros.
 
-# Imports
+# Imports.
 import os
 
 
-# Limpar o terminal
+# Limpar o terminal.
 os.system('cls')
 
-# Entrada
+# Entrada.
 print('-'*70)
 metros = float(input('Digite um valor em metros: '))
 print('-'*70)
 
-# Processamento
+# Processamento.
 centimetros = metros * 100
 milimetros = metros * 1000
 
-# Saída
+# Saída.
 print('='*70)
 print(f'{metros} metros são {centimetros} centímetros.')
 print(f'{metros} metros são {milimetros} milímetros.')

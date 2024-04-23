@@ -4,11 +4,11 @@
 # Data: 19/04/2024.
 # Faça um programa que receba um número inteiro, depois imprima sua tabuada de multiplicação.
 
-# Imports
+# Imports.
 import os
 
 
-# Limpar o terminal
+# Limpar o terminal.
 os.system('cls')
 
 # Entrada
@@ -16,7 +16,7 @@ print('-'*70)
 numero = int(input('Digite um número inteiro: '))
 print('-'*70)
 
-# Processamento
+# Processamento.
 produto0 = numero * 0
 produto1 = numero * 1
 produto2 = numero * 2
@@ -29,7 +29,7 @@ produto8 = numero * 8
 produto9 = numero * 9
 produto10 = numero * 10
 
-# Saída
+# Saída.
 print('='*70)
 print(f'TABUADA DE MULTIPLICAÇÃO DE {numero}')
 print('='*70)

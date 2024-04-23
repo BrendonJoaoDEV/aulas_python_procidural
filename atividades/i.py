@@ -4,21 +4,22 @@
 # Data: 22/04/2024.
 # Faça um programa que receba um valor em reais, depois calcule quantos dólares daria para comprar com esse valor.
 
-# Imports
+# Imports.
 import os
 
 
-# Limpando o terminal
+# Limpando o terminal.
 os.system('cls')
 
-# Entrada
+# Entrada.
 print('-'*70)
 reais = float(input('Digite um valor em reais: '))
 print('-'*70)
-# Processamento
+
+# Processamento.
 dolares = reais / 5.17
 
-# Saída
+# Saída.
 print('='*70)
 print(f'{reais} reais correspondem a {dolares} dolares')
 print('='*70)

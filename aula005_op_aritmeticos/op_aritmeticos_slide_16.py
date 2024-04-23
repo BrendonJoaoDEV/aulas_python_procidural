@@ -1,21 +1,21 @@
-# Curso de Desenvolvimento de Sistemas
-# Turma: 0152
-# Autor: Brendon João Campos Neves
-# Data:17/04/2024
-# Operadores Aritméticos
+# Curso de Desenvolvimento de Sistemas.
+# Turma: 0152.
+# Autor: Brendon João Campos Neves.
+# Data:17/04/2024.
+# Operadores Aritméticos.
 
-# Imports
+# Imports.
 import os
 
 
-# Limpando o terminal
+# Limpando o terminal.
 os.system('cls')
 
 print('-'*70)
 print('OPERADOTES ARITMÉTICOS')
 print('='*70)
 
-# Entrada de Dados
+# Entrada de Dados.
 print('--- SOMA')
 print('-'*70)
 parcela_1 = float(input('Entre com a 1ª parcela: '))
@@ -39,13 +39,13 @@ print('-'*70)
 dividendo = float(input('Entre com o dividendo: '))
 divisor = float(input('Entre com o divisor: '))
 
-# Processamento
+# Processamento.
 soma = parcela_1 + parcela_2
 diferenca = minuendo - subtraendo
 produto = multiplicando * multiplicador
 quociente = dividendo/divisor
 
-# Saída
+# Saída.
 print('='*70)
 print('RESULTADOS')
 print('-'*70)
@@ -53,15 +53,3 @@ print(f'A soma de {parcela_1} + {parcela_2} é: {soma}')
 print(f'A subtração de {minuendo} - {subtraendo} é: {diferenca}')
 print(f'A multiplicação de {multiplicando} x {multiplicador} é: {produto}')
 print(f'A divisão de {dividendo} ÷ {divisor} é: {quociente}')
-
-# Seguindo os passos anteriores, desenvolva o restante:
-# Acrescente a raiz quadrada e a raiz cúbica.
-
-os.system('cls')
-
-# Entrada
-print()
-print('--- RADICIAÇÃO')
-print('-'*70)
-radicando = float(input('Entre com o radicando: '))
-radical = float(input('Entre com o radical: '))

@@ -4,14 +4,14 @@
 # Data: 18/04/2024.
 # Faça um programa que peça 4 notas, após a entrada de dados calcular a média das notas digitadas.
 
-# Imports
+# Imports.
 import os
 
 
-# Limpar o terminal
+# Limpar o terminal.
 os.system('cls')
 
-# Entrada
+# Entrada.
 print('-'*70)
 print('DIGITE AS NOTAS DO ALUNO')
 print('-'*70)
@@ -21,11 +21,11 @@ nota3 = float(input('Entre com a 3ª nota: '))
 nota4 = float(input('Entre com a 4ª nota: '))
 print('-'*70)
 
-# Processamento
+# Processamento.
 soma = nota1 + nota2 + nota3 + nota4
 media = soma / 4
 
-# Saída
+# Saída.
 print('='*70)
 print(f'A média de notas do aluno é: {media}')
 print('='*70)

@@ -1,27 +1,27 @@
-# Curso de Desenvolvimento de Sistemas
-# Turma: 0152
-# Autor: Brendon João Campos Neves
-# Data:16/04/2024
-# Variáveis, imput e casting
+# Curso de Desenvolvimento de Sistemas.
+# Turma: 0152.
+# Autor: Brendon João Campos Neves.
+# Data:16/04/2024.
+# Variáveis, imput e casting.
 
-# Importando as bibliotecas
+# Importando as bibliotecas.
 import os
 
 
-# Limpando o terminal
+# Limpando o terminal.
 os.system('cls')
 
 print('-' * 70)
 print('ENTRADA DE DADOS EM PYTHON')
 print('=' * 70)
 
-# Entrada
+# Entrada.
 nome = input('Entre com um nome: ')
 nascimento = input('Data de nascimento: ')
 peso = input('Entre com um peso: ')
 altura = input('Entre com uma altura: ')
 
-# Saída
+# Saída.
 print('-' * 70)
 print('SAÍDA DE DADOS')
 print('=' * 70)

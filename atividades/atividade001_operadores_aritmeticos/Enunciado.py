@@ -1,4 +1,4 @@
-# Atividade 001 - Operadores aritméticos
+# Atividade 001 - Operadores aritméticos.
 
 # A) Faça um programa que peça 3 valores , depois calcule e imprima  a soma e a multiplicação desses valores. 
 # B) Faça um programa que peça o ano do seu nascimento e calcule a sua idade.
@@ -11,9 +11,9 @@
 # I) Faça um programa que receba um valor em reais, depois calcule quantos dólares daria para comprar com esse valor.
 # J) Faça um programa com entrada de dados para calcular o perímetro de um retângulo.
 
-# Observação
+# Observações:
 # É obrigatório a saída formatada!
-# Variáveis bem definidas
-# O código precisa ter o cabeçalho padrão
-# o código precisa ser comentado
+# Variáveis bem definidas.
+# O código precisa ter o cabeçalho padrão.
+# o código precisa ser comentado.
 # Enviar somente os exercícios indicados com a cor laranja.

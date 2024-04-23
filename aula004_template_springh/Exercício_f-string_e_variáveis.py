@@ -1,27 +1,27 @@
-# Curso de Desenvolvimento de Sistemas
-# Turma: 0152
-# Autor: Brendon João Campos Neves
-# Data: 17/04/2024
-# Exercícios f-strings e variáveis
+# Curso de Desenvolvimento de Sistemas.
+# Turma: 0152.
+# Autor: Brendon João Campos Neves.
+# Data: 17/04/2024.
+# Exercícios f-strings e variáveis.
 
-# Importando as bibliotecas do sistema
+# Importando as bibliotecas do sistema.
 import os
 
 
-# Limpando o terminal
+# Limpando o terminal.
 os.system("cls")
 
 print("-" * 70)
 print("ENTRADA DE DADOS")
 print("=" * 70)
 
-# Entrada em Casting
+# Entrada em Casting.
 produto = str(input("Entre com o produto: "))
 preco = float(input("Entre com o preço do produto: "))
 parcelamento_maximo = int(input("Entre com o limite de parcelas: "))
 possui_estoque = bool(True)
 
-# Saída Interpolada
+# Saída Interpolada.
 print("-" * 70)
 print("SAÍDA DE DADOS")
 print("=" * 70)
@@ -30,7 +30,7 @@ print(f"Está {possui_estoque} no estoque")
 print(f"Seu preço é de {preco}")
 print(f"Esse valor pode ser parcelado em até {parcelamento_maximo} vezes")
 
-# Tipo das variáveis
+# Tipo das variáveis.
 print("-" * 70)
 print("TIPO DAS VARIÁVEIS")
 print("=" * 70)
