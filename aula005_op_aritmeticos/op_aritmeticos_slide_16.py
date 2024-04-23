@@ -53,3 +53,15 @@ print(f'A soma de {parcela_1} + {parcela_2} é: {soma}')
 print(f'A subtração de {minuendo} - {subtraendo} é: {diferenca}')
 print(f'A multiplicação de {multiplicando} x {multiplicador} é: {produto}')
 print(f'A divisão de {dividendo} ÷ {divisor} é: {quociente}')
+
+# Seguindo os passos anteriores, desenvolva o restante:
+# Acrescente a raiz quadrada e a raiz cúbica.
+
+os.system('cls')
+
+# Entrada
+print()
+print('--- RADICIAÇÃO')
+print('-'*70)
+radicando = float(input('Entre com o radicando: '))
+radical = float(input('Entre com o radical: '))
