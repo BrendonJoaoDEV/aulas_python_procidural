@@ -15,15 +15,14 @@ print('Estudo de Condicional: Parte 1')
 print('='*70)
 
 # Entrada.
-valor = float(input('Digite um número: '))
+numero = float(input('Digite um número: '))
 resposta = ''
 
 # Condicional.
-if valor % 2 == 0:
-    valor = int(valor)
-    resposta = f'Entrada incorreta, o valor {valor} é um inteiro!'
+if numero % 2 == 0:
+    resposta = f'O número {numero} é par!'
 else:
-    resposta = f'Entrada correta, o valor {valor} é um decimal!'
+    resposta = f'O número {numero} é ímpar!'
 
 # Saída.
 print('='*70)

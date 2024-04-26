@@ -1,3 +1,7 @@
+# Curso de Desenvolvimento de Sistemas.
+# Turma: 0152.
+# Autor: Brendon João Campos Neves.
+# Data: 18/04/2024.
 # Atividade 001 - Operadores aritméticos.
 
 # A) Faça um programa que peça 3 valores , depois calcule e imprima  a soma e a multiplicação desses valores. 
