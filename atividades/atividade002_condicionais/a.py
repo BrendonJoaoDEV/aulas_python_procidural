@@ -22,8 +22,21 @@ print('.'*70)
 # Entrada/Declaração de variáveis.
 print('-'*70)
 numero = int(input('Digite um número inteiro: '))
+resposta = ''
 print('-'*70)
 
-# Processamento.
-# O número é um inteiro?
-if numero ==
+# Processamento
+# Condicional para verificar se o número é par ou ímpar.
+if numero % 2 == 0:
+    resposta = f'O número {numero} é par'
+else:
+    resposta = f'O número {numero} é ímpar'
+
+# Saída
+print('='*70)
+print(resposta)
+print('='*70)
+    
+print('.'*70)
+print('Fim do programa!')
+print('.'*70)
