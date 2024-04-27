@@ -23,14 +23,41 @@ print('-'*70)
 numero1 = float(input('Digite um número: '))
 numero2 = float(input('Digite um número: '))
 numero3 = float(input('Digite um número: '))
-resposta = ''
+maior = ''
+menor = ''
+igual = ''
 print('-'*70)
 
 # Processamento
-# Condicional para verificar se os numeros são iguais, maiores ou menores.
-if numero1 == numero2 and numero2 == numero3:
-    resposta = f'{numero1}, {numero2} e {numero3} são iguais'
-elif numero1 > numero2 and numero1 > numero3:
-    resposta = f'{numero1} é o maior número'
-elif numero2 > numero1 and numero2 > numero2:
-    pass
+# Condicional para verificar se os numeros são maiores.
+if numero1 > numero2 and numero1 > numero3:
+    maior = f'O número {numero1} é o maior!'
+elif numero2 > numero1 and numero2 > numero3:
+    maior = f'O número {numero2} é o maior!'
+else:
+    maior = f'O número {numero3} é o maior!'
+
+# Condicional para verificar se os números são menores.
+if numero1 < numero2 and numero2 < numero3:
+    menor = f'O número {numero1} é o menor!'
+elif numero2 < numero1 and numero2 < numero3:
+    menor = f'O número {numero2} é o menor!'
+else:
+    menor =f'O número {numero3} é o menor!'
+
+# Condicional para verificar se os números são iguais.
+if numero1 == numero2 and numero1 == numero3:
+    igual = f'Os números {numero1}, {numero2} e {numero3} são iguais!'
+else:
+    igual = f'Os números {numero1}, {numero2} e {numero3} não são iguais!'
+
+# Saída.
+print('='*70)
+print(maior)
+print(menor)
+print(igual)
+print('='*70)
+
+print('.'*70)
+print('Fim do programa!')
+print('.'*70)
