@@ -23,13 +23,24 @@ print('.'*70)
 print('-'*70)
 velocidade_carro = str(input('Digite a velocidade do em km/h: '))
 velocidade_limite = str('60km/h')
-resposta = ''
+resposta = str('')
 print('-'*70)
 
 # Processamento
 # Condicional para verificar se a velocidade inserida é maior, menor ou igual ao limite.
 if velocidade_carro <= velocidade_limite:
-    resposta = f'A velocidade de {velocidade_carro} está dentro da velocidade'
-    + 'máxima permitida de '
+    resposta = (f'A velocidade de {velocidade_carro} está dentro da '
+    + f'velocidade máxima permitida de {velocidade_limite}, parabéns!')
 else:
-    resposta = f'A veloci'
+    resposta = (f'A velocidade de {velocidade_carro} está acima da '
+    +f'velocidade máxima permitidade de {velocidade_limite}, '
+    +'tenha mais cuidado!')
+
+# Saída.
+print('='*70)
+print(resposta)
+print('='*70)
+
+print('.'*70)
+print('Fim do programa!')
+print('.'*70)
