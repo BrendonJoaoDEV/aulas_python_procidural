@@ -33,8 +33,8 @@ if velocidade_carro <= velocidade_limite:
     + f'velocidade máxima permitida de {velocidade_limite}, parabéns!')
 else:
     resposta = (f'A velocidade de {velocidade_carro} está acima da '
-    +f'velocidade máxima permitidade de {velocidade_limite}, '
-    +'tenha mais cuidado!')
+    + f'velocidade máxima permitidade de {velocidade_limite}, '
+    + 'tenha mais cuidado!')
 
 # Saída.
 print('='*70)
