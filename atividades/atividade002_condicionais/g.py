@@ -26,3 +26,27 @@ segmento_2 = float(input('Digite o valor do 2º segmento: '))
 segmento_3 = float(input('Digite o valor do 3º segmento: '))
 resposta = ''
 print('-'*70)
+
+# Processamento.
+# Condicional:
+# if(verifica se os segmentos respeitam a desigualdade triângular).
+# else(caso os segmentos não respeitem a desigualdade triângular).
+if (segmento_1 + segmento_2 > segmento_3 and
++ segmento_1 + segmento_3 > segmento_2 and
++ segmento_2 + segmento_3 > segmento_1):
+    resposta = (f'Os segmentos {segmento_1}, {segmento_2} e '
++ f'{segmento_3} podem formar um triângulo!')
+else:
+    resposta = (f'Os segmentos {segmento_1}, {segmento_2} e '
++ f'{segmento_3} não podem formar um triângulo!')
+
+# Saída
+print('='*70)
+print(resposta)
+print('='*70)
+
+# Título de fim.
+print('.'*70)
+print('Fim do programa!')
+print('.'*70)
+print()
