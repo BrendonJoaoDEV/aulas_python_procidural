@@ -14,7 +14,7 @@ os.system('cls')
 
 # Entrada.
 print('-'*70)
-nascimento = str(input('Digite o ano de seu nascimento: '))
+nascimento = int(input('Digite o ano de seu nascimento: '))
 print('-'*70)
 
 # Processamento.
