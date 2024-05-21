@@ -35,4 +35,4 @@ if radicando < 0:
 elif raiz_quadrada == float(radicando):
     raiz_arredondada = math.ceil(raiz_quadrada)
     resposta = (f'O radicando {radicando} gerá a raiz não exata '
-    f'{raiz_quadrada}, por isso pode ser '
+    f'{raiz_quadrada}, por isso pode ser ')
