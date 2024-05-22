@@ -1,6 +1,6 @@
 # Curso de desenvolvimento de sistemas.
 # Turma: 0152.
-# Autor: Brendon João Campos Neves.
+# Professor: Sebastião Marcos.
 # Data: 18/04/2024.
 # Calculando notas.
 

@@ -1,6 +1,6 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma: 0152.
-# Autor: Brendon João Campos Neves.
+# Professor: Sebastião Marcos.
 # Data: 17/04/2024.
 # Exercícios f-strings e variáveis.
 

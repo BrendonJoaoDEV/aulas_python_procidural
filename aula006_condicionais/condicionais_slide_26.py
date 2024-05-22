@@ -1,6 +1,6 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma: 0152.
-# Autor: Brendon João Campoes Neves.
+# Professor: Sebastião Marcos.
 # Data: 25/04/2024.
 # Estudo de Condicionais: Parte 4.
 # Operadores lógicos.

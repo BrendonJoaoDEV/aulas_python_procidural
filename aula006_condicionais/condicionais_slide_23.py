@@ -1,6 +1,6 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma: 0152.
-# Autor: Brendon João Cammpos Neves.
+# Professor: Sebastião Marcos.
 # Data: 24/04/2024.
 # Estudo de Condicionais: parte 1.
 # Objetivo: Verificando um valor decimal.

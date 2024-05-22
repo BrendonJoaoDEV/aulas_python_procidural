@@ -1,6 +1,6 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma: 0152.
-# Autor: Brendon João CAmpos Neves.
+# Professor: Sebastião Marcos.
 # Data: 09/05/2024.
 # Biblioteca math: arredondamento para baixo e para cima.
 

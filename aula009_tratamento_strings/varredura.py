@@ -1,3 +1,9 @@
+# Curso de Desenvolvimento de Sistemas.
+# Turma: 0152.
+# Professor: Sebastião Marcos.
+# Data: 09/05/2024.
+# Funções in e not in para verificar contenção de substrings em strings.
+
 import os
 
 

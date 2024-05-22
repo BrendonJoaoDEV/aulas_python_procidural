@@ -1,6 +1,6 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma: 0152.
-# Autor: Brendon João Campos Neves.
+# Professor: Sebastião Marcos.
 # Data: 16/04/2024.
 # Saída interpolada, formtada, f-string ou template string.
 

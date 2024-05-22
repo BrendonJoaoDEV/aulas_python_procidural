@@ -1,6 +1,6 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma: 0152.
-# Autor: Brendon João Campos Neves.
+# Professor: Sebastião Marcos.
 # Data: 23/04/2024
 # Seguindo os passos anteriores, desenvolva o restante:
 # Acrescente a raiz quadrada e a raiz cúbica.

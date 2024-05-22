@@ -1,3 +1,9 @@
+# Curso de Desenvolvimento de Sistemas.
+# Turma: 0152.
+# Professor: Sebastião Marcos.
+# Data: 09/05/2024.
+# Funções úteis para o tratamento de strings.
+
 import os
 
 

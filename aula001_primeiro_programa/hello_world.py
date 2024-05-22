@@ -1,6 +1,6 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma 0152 Elite do Senac.
-# Autor: Brendon João Campos Neves.
+# Professor: Sebastião Marcos.
 # Data: 12/04/2024.
 # Primeiro Programa em Python.
 

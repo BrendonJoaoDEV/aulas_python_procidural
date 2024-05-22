@@ -1,6 +1,6 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma:0152.
-# Autor: Brendon joão Campos Neves.
+# Professor: Sebastião Marcos.
 # Data: 15/04/2024.
 # Variáveis.
 

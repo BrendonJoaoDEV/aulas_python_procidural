@@ -1,6 +1,6 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma: 0152.
-# Autor: Brendon João Campos Neves.
+# Professor: Sebastião Marcos.
 # Data: 09/05/2024.
 # Biblioteca random.
 
