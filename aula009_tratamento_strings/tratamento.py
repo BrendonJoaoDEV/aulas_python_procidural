@@ -44,7 +44,7 @@ print(f'Frase original: {frase1}')
 print(f'Frase nova: {substituicao}')
 print('.'*70)
 
-lista = frase1.split(',') # Separa as palavras de uma str e, uma lista.
+lista = frase1.split(',') # Separa as palavras de uma str em uma lista.
 print(f'Frase original: {frase1}')
 print(f'Frase nova: {lista}')
 print('.'*70)
