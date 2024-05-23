@@ -32,10 +32,10 @@ centenas = 0
 milhares = 0
 
 # Processamento de dados.
-unidades = numero//1
-dezenas = numero//10
-centenas = numero//100
-milhares = numero//1000
+unidades = (numero//1) % 10
+dezenas = (numero//10) % 10
+centenas = (numero//100) % 10
+milhares = (numero//1000) % 10
 
 # Saída de dados.
 print('='*79)
