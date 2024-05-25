@@ -19,20 +19,36 @@ print('.'*70)
 print('Sistema para calcular raiz quadrada')
 print('.'*70)
 
-# Entrada/Declaração de variáveis.
+# Entrada dados.
 print('-'*70)
 radicando = float(input('Digite o número que deseja saber a raiz quadrada: '))
 print('-'*70)
 resposta = ''
-raiz_arredondada = ''
+raiz_arredondada_cima = ''
+raiz_arredondada_baixo = ''
 
-# Processamento.
+# Processamento de dados.
 raiz_quadrada = math.sqrt(radicando)
 
+# Validação da resposta.
 if radicando < 0:
     resposta = (f'O radicando é negativo, portanto o resultado será '
     f'um número complexo')
 elif raiz_quadrada == float(radicando):
-    raiz_arredondada = math.ceil(raiz_quadrada)
+    raiz_arredondada_cima = math.ceil(raiz_quadrada)
+    raiz_arredondada_baixo = math.floor(raiz_quadrada)
     resposta = (f'O radicando {radicando} gerá a raiz não exata '
-    f'{raiz_quadrada}, por isso pode ser ')
+    f'{raiz_quadrada}, por isso pode ser arrendodado para'
+    f'{raiz_arredondada_cima} ou {raiz_arredondada_baixo}')
+else:
+    resposta = f'A raiz do número {radicando} é {raiz_quadrada}'
+
+# Saída de dados.
+print('='*79)
+print(resposta)
+print('='*79)
+
+# Título fim.
+print('.'*79)
+print('Fim do pograma! Obrigado!')
+print('.'*79)
