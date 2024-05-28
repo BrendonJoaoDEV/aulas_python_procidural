@@ -25,8 +25,17 @@ nome_do_meio = input('Digite seu nome do meio: ')
 sobrenome = input('Digite seu sobrenome: ')
 print('-'*79)
 
-# Validação de dados.
-nome =nome.split(' ')
-nome_do_meio =nome_do_meio.split(' ')
-sobrenome = sobrenome.split(' ')
+# Processamento de dados.
+lista_nomes = [nome, nome_do_meio, sobrenome]
+lista_nomes_str = str(lista_nomes)
+nome_completo = ' '.join(lista_nomes_str)
 
+# Saída de dados.
+print('='*79)
+print(f'Seu nome completo é {nome_completo}')
+print('='*79)
+
+# Título de fim.
+print('.'*79)
+print('Fim do programa! Obrigado!')
+print('.'*79)
