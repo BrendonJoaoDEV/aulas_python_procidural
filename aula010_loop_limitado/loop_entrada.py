@@ -1,7 +1,7 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma: 0152.
 # Professor: Sebastião Marcos.
-# Data: 27/05/2024.
+# Data: 28/05/2024.
 # for... range... com input().
 
 import os
