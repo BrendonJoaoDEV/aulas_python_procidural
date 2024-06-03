@@ -11,7 +11,7 @@ import os
 
 
 # Limpando o terminal.
-os.system('clear')
+os.system('cls')
 
 # Imprimindo o título.
 print('.'*79)
@@ -19,4 +19,23 @@ print('JOGO DE ADIVINHAÇÃO')
 print('Adivinhe a letra e salve o sistema!')
 print('.'*79)
 
-# Pedindo para o usuário 
+# Imprimindo mensagem do sistema.
+print('-'*79)
+print('Estou em looping! Por favor me ajude!')
+print('-'*79)
+
+# Pedindo para o usuário chutar uma letra.
+while True:
+    print('-'*79)
+    chute = input('Digite uma letra para tentar salvar o sistema: ')
+    print('-'*79)
+    if chute == 'f': # Se o usuário chutar f.
+        print('='*79)
+        print('Parábens você conseguiu salvar o sistema!') # Exibir mensagem de parabenização.
+        print('='*79)
+        break # E parar o looping.
+
+# Imprimindo título de fim.
+print('.'*79)
+print('Fim do Jogo! Obrigado!')
+print('.'*79)
