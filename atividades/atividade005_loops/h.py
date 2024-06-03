@@ -10,7 +10,7 @@ import os
 
 
 # Limapndo o terminal.
-os.system('clear')
+os.system('cls')
 
 # Imprimindo título.
 print('.'*79)
@@ -33,8 +33,32 @@ while True:
               and excluir_3.isnumeric())):
         print('Você só pode excluir números do seu intervalo.')
     else:
+        inicio = int(inicio)
+        final = int(final)
+        excluir_1 = int(excluir_1)
+        excluir_2 = int(excluir_2)
+        excluir_3 = int(excluir_3)
         break
-
+# Declaração de variáveis.
+intervalo = []
 # Processamento de dados.
-for i in range(int(inicio), int(final)):
-    
+for i in range(inicio, final):
+    if i == excluir_1:
+        continue
+    elif i == excluir_2:
+        continue
+    elif i == excluir_3:
+        continue
+    else:
+        intervalo += [i]
+
+# Saída de dados
+print('='*79)
+print(intervalo)
+print()
+print('='*79)
+
+# Imprimindo título de fim.
+print('.'*79)
+print('Fim do programa! Obrigado!')
+print('.'*79)
