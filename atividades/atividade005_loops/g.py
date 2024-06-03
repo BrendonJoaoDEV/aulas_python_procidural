@@ -10,7 +10,7 @@ import os
 
 
 # Limpando o terminal.
-os.system('clear')
+os.system('cls')
 
 # Imprimindo título.
 print('.'*79)
@@ -19,6 +19,12 @@ print('.'*79)
 
 # Entrada de dados.
 while True:
+    print('.'*79)
+    print('!AVISOS!')
+    print('Por favor digite sempre um nº a mais no final do seu intervalo')
+    print('Números menores que dois são inválidos.')
+    print('Porque dois é o menor número primo.')
+    print('.'*79)
     print('-'*79)
     inicio = input('Digite o início do seu intervalo: ')
     final = input('Digite o final do seu intervalo: ')
