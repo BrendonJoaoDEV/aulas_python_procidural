@@ -6,26 +6,35 @@
 
 # Importando as bibliotecas do sistema.
 import os
-import math
 
 
 # Limpando o terminal.
-os.system('clear')
+os.system('cls')
 
 # Imprimindo título.
 print('.'*79)
 print('NÚMEROS PRIMOS ENTRE 0 E 100')
 print('.'*79)
 
-# Gera o intervalo que será analisado.
-for i in range(2, 101):
-    # Flag que diz que o número é primo.
-    is_prime = True
-    # Verifica se o número é divisivel somente por 1 e por ele mesmo.
-    for j in range(2, math.ceil(math.sqrt(i))):
-        if i % i == 0:
-            is_prime = False
-            break
-    # Se o número é primo, imprime
-    if is_prime:
-        print(i, end=" ")
+# Declarações de variáveis.
+primos = [] # Lista que receberá os primos encontrados.
+
+# Processamento dos números.
+for i in range(2, 101): # For para gerar os números de 2 a 100.
+    primo = True # Flag que afirma que o número é primo.
+    for j in range (2, i): # For que gera os números de 2 a i.
+        if i % j == 0: # Verifica se o nº i dividido por j gera o resto 0.
+            primo = False # Se sim diz que não é primo.
+            break # Para o looping pois o número não é primo.
+    if primo: # Se primo ainda for True.
+        primos += [i] # Adiciona i a lista de primos.
+
+# Saída dos números primos encontrados.
+print('='*79)
+print(primos)
+print('='*79)
+
+# Imprimindo o título de fim.
+print('.'*79)
+print('Fim do programa! Obrigado!')
+print('.'*79)
