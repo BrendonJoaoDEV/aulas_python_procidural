@@ -34,9 +34,6 @@ while True:
     else:
         break
 
-# Declarações de variáveis.
-primo = bool
-
 # Processamento de dados.
 print('='*79)
 print(f'Os nº primos no intervalo de {inicio} a {final} são:')
