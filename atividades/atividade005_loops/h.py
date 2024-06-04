@@ -39,22 +39,15 @@ while True:
         excluir_2 = int(excluir_2)
         excluir_3 = int(excluir_3)
         break
-# Declaração de variáveis.
-intervalo = []
-# Processamento de dados.
-for i in range(inicio, final):
-    if i == excluir_1:
-        continue
-    elif i == excluir_2:
-        continue
-    elif i == excluir_3:
-        continue
-    else:
-        intervalo += [i]
 
-# Saída de dados
+# Processamento de dados.
 print('='*79)
-print(intervalo)
+
+for i in range(inicio, final + 1):
+    if ((i == excluir_1) or (i == excluir_2) or (i == excluir_3)):
+        continue
+    # Saída de dados.
+    print(i, end = ', ')
 print()
 print('='*79)
 

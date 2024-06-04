@@ -24,3 +24,13 @@
 # I) Faça um algoritmo que imprima a frase "estou em looping" e, em seguida,
 # solicite ao usuário digitar uma letra. Caso a letra seja o “f" finalize a aplicação.
 # Do contrário, imprima novamente a mesma frase até que o caractere “f" seja digitado.
+
+# J) Crie um programa que realiza a contagem de 1 até 100,
+# usando apenas de números ímpares,ao final do processo exiba na tela quantos números ímpares foram
+# encontrados nesse intervalo, assim como a soma dos mesmos.
+
+# K) Crie um programa que pede que o usuário digite um nome ou uma frase,
+# verifique se esse conteúdo digitado é um palíndromo ou não, exibindo em tela esse resultado.
+
+# L) Faça um programa que verifique se o usuário e senha estão inseridos em um banco de dados (fake).
+# O usuário só terá acesso se digitar os dados corretos e, assim, sair do laço.

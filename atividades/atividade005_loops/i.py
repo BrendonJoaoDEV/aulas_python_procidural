@@ -29,7 +29,7 @@ while True:
     print('-'*79)
     chute = input('Digite uma letra para tentar salvar o sistema: ')
     print('-'*79)
-    if chute == 'f': # Se o usuário chutar f.
+    if (chute == 'f'): # Se o usuário chutar f.
         print('='*79)
         print('Parábens você conseguiu salvar o sistema!') # Exibir mensagem de parabenização.
         print('='*79)
