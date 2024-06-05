@@ -40,7 +40,7 @@ print(f'Os nº primos no intervalo de {inicio} a {final} são:')
 
 for i in range(int(inicio), int(final) + 1):
     for i2 in range(int(inicio), i):
-        if i % i2 == 0:
+        if (i % i2 == 0):
             break
     else:
         print(i, end = ', ')

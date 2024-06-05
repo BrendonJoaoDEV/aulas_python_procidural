@@ -25,7 +25,7 @@ while True:
     print('-'*79)
 
     # Validação de entrada.
-    if not(inicio.isnumeric() and final.isnumeric()):
+    if (not(inicio.isnumeric() and final.isnumeric())):
         print('Entrada inválida.')
         print('Por favor digite um número.')
     else:

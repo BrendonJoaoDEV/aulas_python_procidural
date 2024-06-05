@@ -26,7 +26,7 @@ while True:
     excluir_2 = input('Digite o 2º número que será excluido: ')
     excluir_3 = input('Digite o 3º número que será excluido: ')
     print('-'*79)
-    if not(inicio.isnumeric() and final.isnumeric()):
+    if (not(inicio.isnumeric() and final.isnumeric())):
         print('Entrada inválida.')
         print('Por favor digite apenas números.')
     elif (not(excluir_1.isnumeric() and excluir_2.isnumeric() 

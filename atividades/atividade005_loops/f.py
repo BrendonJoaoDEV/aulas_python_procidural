@@ -23,10 +23,10 @@ primos = [] # Lista que receberá os primos encontrados.
 for i in range(2, 101): # For para gerar os números de 2 a 100.
     primo = True # Flag que afirma que o número é primo.
     for j in range (2, i): # For que gera os números de 2 a i.
-        if i % j == 0: # Verifica se o nº i dividido por j gera o resto 0.
+        if (i % j == 0): # Verifica se o nº i dividido por j gera o resto 0.
             primo = False # Se sim diz que não é primo.
             break # Para o looping pois o número não é primo.
-    if primo: # Se primo ainda for True.
+    if (primo): # Se primo ainda for True.
         primos += [i] # Adiciona i a lista de primos.
 
 # Saída dos números primos encontrados.
