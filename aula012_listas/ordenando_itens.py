@@ -7,7 +7,7 @@ os.system('cls')
 entrada = input('Digite números separados por espaço: ')
 
 # Divide a string de entrada em uma lista de strings.
-numero_str = entrada.split()
+numeros_str = entrada.split()
 
 # Converte a lista de strings em uma lista de inteiros.
 numeros = []
