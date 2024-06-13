@@ -1,3 +1,9 @@
+# Curso de Desenvolvimento de Sistemas.
+# Turma: 0152.
+# Professor: Sebastião Marcos.
+# Data: 11/06/2024.
+# Estrutura de dados: Listas [] + copy() para gerar copias da lista porem que alteram a lista original se forem alteradas.
+
 import os
 
 
@@ -14,15 +20,17 @@ numeros = []
 for num_str in numeros_str:
     numeros.append(int(num_str))
 
-# Exibe a lista fornecida para referência.
-print('Lista fornecida: ', numeros)
+# Solicita ao usuário para decidir se deseja
+# criar uma cópia da lista.
+escolha = input('Deseja criar uma cópia? (s/n): ').strip().lower()
 
-# Solicita ao usuário para decidirse deseja inverter a lista.
-escolha = input('Deseja inverter a ordem da lista? (s/n): ').strip().lower()
-
-# Verifica a escolha do usuário e inverte a lista se a resposta for 's'.
+# Verifica a escolha do usuário e cria uma cópia da
+# lista se a resposta for 's'.
 if escolha == 's':
-    numeros.reverse()
-    print('Lista invertida: ', numeros)
+    lista_copiada = numeros.copy()
+    print(f'Cópia da lista: {lista_copiada}')
 else:
-    print('A lista não foi invertida.')
+    print('A lista não foi copiada.')
+
+# Exibe a lista fornecida para referência.
+print(f'Lista fornecida: {numeros}')

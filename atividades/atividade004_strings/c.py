@@ -15,5 +15,5 @@ os.system('cls')
 
 # Imprimindo o título.
 print('.'*79)
-print(f)
+print('')
 print('.'*79)

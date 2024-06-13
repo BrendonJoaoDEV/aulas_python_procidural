@@ -1,8 +1,8 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma: 0152.
 # Professor: Sebastião Marcos.
-# Data: 10/06/2024.
-# Estrutura de dados: Listas [] + append().
+# Data: 11/06/2024.
+# Estrutura de dados: Listas [] + append() para adicionar elementos.
 
 import os
 

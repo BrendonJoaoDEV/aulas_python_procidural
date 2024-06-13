@@ -1,3 +1,9 @@
+# Curso de Desenvolvimento de Sistemas.
+# Turma: 0152.
+# Professor: Sebastião Marcos.
+# Data: 10/06/2024.
+# Estrutura de dados: Listas [] + for... para dar saida nos elementos da lista.
+
 import os
 
 
@@ -28,4 +34,4 @@ for aluno in range(len(lista_alunos)):
 print()
 print('-' * 70)
 print('Fim do programa!')
-print('-' * 70
+print('-' * 70)

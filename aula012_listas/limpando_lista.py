@@ -1,3 +1,9 @@
+# Curso de Desenvolvimento de Sistemas.
+# Turma: 0152.
+# Professor: Sebastião Marcos.
+# Data: 11/06/2024.
+# Estrutura de dados: Listas [] + clear() para apagar todos os elementos de uma lista e deixa lá limpa.
+
 import os
 
 
