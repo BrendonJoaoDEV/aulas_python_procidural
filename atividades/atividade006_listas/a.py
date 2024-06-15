@@ -11,18 +11,51 @@ import os
 # Limpando o terminal.
 os.system('cls')
 
-# Declaração da lista.
+# Declarações de variáveis.
 lista = [1, 2, 3, 5, 6]
+elemento = ''
+posicao = ''
 
-# Imprimindo dados iniciais.
+# Imprimindo título.
+print('.'*79)
+print('JOGO: COMPLETE A SEQUÊNCIA')
+print('.'*79)
+
+# Mostrando ao usuário a sequência atual.
+print(F'Sequência atual: {lista}')
+print('.'*79)
+
+# Entrada do usuário.
 print('-'*79)
-print(lista)
+
+while True:
+    elemento = input('Digite o número que deseja inserir: ')
+    posicao = input(f'Digite a posição que deseja inserir o nº {elemento}: ')
+    # Validação da entrada do usuário.
+    if (elemento.isnumeric() and posicao.isnumeric()):
+        elemento = int(elemento)
+        posicao = int(posicao) - 1
+        # Processamento da entrada.
+        if (posicao == 3 and elemento == 4):
+            lista.insert(posicao, elemento)
+            break
+        else:
+            print('Número ou posição incorretos!')
+            print('Por favor tente novamente!')
+            continue
+    else:
+        print('Número ou posição inválidos!')
+        print('Insira apenas números!')
+        continue
+
 print('-'*79)
 
-# Processamento de dados
-lista_processada = lista.insert(2, 4)
+# Resultado da sequência (Saída de dados).
+print('='*79)
+print(f'Resultado da sequência: {lista}')
+print('='*79)
 
-# Imprimindo dados processados.
-print('='*79)
-print(lista_processada)
-print('='*79)
+# Imprimindo título de fim.
+print('.'*79)
+print('Obrigado por jogar! Meus parabéns!')
+print('.'*79)
