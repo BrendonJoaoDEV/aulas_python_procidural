@@ -9,7 +9,8 @@
 # • Calcule e mostre a soma das notas.
 # • Calcule e mostre a média das notas.
 
-# C) Faça um programa que preencha uma lista com 50 números aleatórios. Depois fatie essa lista em 5 listas de 10 elementos.
+# C) Faça um programa que preencha uma lista com 50 números aleatórios.
+# Depois fatie essa lista em 5 listas de 10 elementos.
 
 # D) Utilizando o exercício anterior, coloque todas as listas em ordem crescente de valor.
 
