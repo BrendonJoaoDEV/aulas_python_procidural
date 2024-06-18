@@ -2,8 +2,7 @@
 # Turma: 0152.
 # Autor: Brendon João Campos Neves.
 # Data: 17/06/2024.
-# C) Faça um programa que preencha uma lista com 50 números aleatórios.
-# Depois fatie essa lista em 5 listas de 10 elementos.
+# D) Utilizando o exercício anterior, coloque todas as listas em ordem crescente de valor.
 
 # Importando as bibliotecas do sistema:
 import os
@@ -28,11 +27,20 @@ for numero in range(0, 50):
     numeros.append(numero)
 
 # Processamento de dados:
+# Separando os intervalos:
 de0a10 = numeros[0:10]
 de11a20 = numeros[10:20]
 de21a30 = numeros[20:30]
 de31a40 = numeros[30:40]
 de41a50 = numeros[40:50]
+
+# Ordenando as listas:
+numeros.sort()
+de0a10.sort()
+de11a20.sort()
+de21a30.sort()
+de31a40.sort()
+de41a50.sort()
 
 # Saída de dados:
 print('='*79)
