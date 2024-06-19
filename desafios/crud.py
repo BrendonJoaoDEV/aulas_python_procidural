@@ -13,6 +13,9 @@ import os
 # Limpando o terminal:
 os.system('cls')
 
+# Declarações de variáveis:
+entrada = ''
+
 # Exibindo título:
 print('.'*79)
 print('CRUD: Create, Read, Update e Delete.')
@@ -20,8 +23,36 @@ print('.'*79)
 
 # Exibindo lista de comandos:
 print('COMANDOS: ')
-print('1 - criar nova pasta')
-print('2 - criar novo arquivo')
-print('3 - exibir elementos de uma pasta')
-print('4 - alterar um elemento de uma pasta')
-print('5 - excluir uma pasta')
+print('0 - sair')
+print('1 - criar novo arquivo')
+print('2 - exibir elementos de um arquivo')
+print('3 - alterar um elemento de um arquivo')
+print('4 - excluir um arquivo')
+
+# Entrada de dados:
+while True:
+    print('-'*79)
+    entrada = input('Digite o número correspondente a opção que deseja executar: ')
+    print('-'*79)
+    if entrada.isnumeric():
+        entrada = int(entrada)
+        # Processamento de dados:
+        if entrada == 0:
+            print('Saindo...')
+            break
+        elif entrada == 1:
+            pass
+        elif entrada == 2:
+            pass
+        elif entrada == 3:
+            pass
+        elif entrada == 4:
+            pass
+        else:
+            print('Opção inválida! Digite o número correspondente a um dos comandos!')
+            continue
+
+# Fim do sistema:
+print('.'*79)
+print('Fim do sistema! Obrigado!')
+print('.'*79)
