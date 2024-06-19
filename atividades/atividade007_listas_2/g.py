@@ -6,6 +6,7 @@
 
 # Importando as bibliotecas do sistema:
 import os
+import random
 
 
 # Limpando o terminal:
@@ -23,15 +24,25 @@ print('.'*79)
 
 # Entrada de dados:
 print('-'*79)
-for i in range(1, 11):
-    numeros.append(int(input(f'Digite o {i}º número: ')))
+for i in range(0, 10):
+    numeros.append(random.randint(0, 100))
+print(f'Lista de números aleatórios gerada: {numeros}')
 print('-'*79)
 
 # Processamento de dados:
-numeros_ascendente = numeros.sort()
-numeros_descendente = numeros.sort(reverse = True)
+numeros_ascendente = numeros.copy()
+numeros_ascendente.sort()
+numeros_descendente = numeros.copy()
+numeros_descendente.sort(reverse = True)
 
 # Saída de dados:
 print('='*79)
-print(f)
+print(f'Números em ordem aleatória: {numeros}')
+print(f'Números em ordem ascendente: {numeros_ascendente}')
+print(f'Números em ordem descendente: {numeros_descendente}')
 print('='*79)
+
+# Exibindo título de fim:
+print('.'*79)
+print('Fim do programa! Obrigado!')
+print('.'*79)
