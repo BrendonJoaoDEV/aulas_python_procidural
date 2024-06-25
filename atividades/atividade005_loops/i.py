@@ -27,7 +27,7 @@ print('-'*79)
 # Pedindo para o usuário chutar uma letra.
 while True:
     print('-'*79)
-    chute = input('Digite uma letra para tentar salvar o sistema: ')
+    chute = input('Digite uma letra para tentar salvar o sistema: ').lower()
     print('-'*79)
     if (chute == 'f'): # Se o usuário chutar f.
         print('='*79)
