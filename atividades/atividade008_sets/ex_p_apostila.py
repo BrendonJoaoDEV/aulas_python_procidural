@@ -12,22 +12,31 @@ import os
 os.system('cls')
 
 # Declarações de variáveis:
-entrada = ''
-numero_elementos_set_1 = 0
-conjunto_1 = []
-numero_elementos_set_2 = 0
+entrada_1 = ''
+entrada_2 = ''
+conjunto_1 = set()
+conjunto_2 = set()
+
 
 print('.'*79)
 print('DIFERENÇA SIMÉTRICA')
 print('.'*79)
 
-numero_elementos_set_1 = int(
-    input('Digite o nº de elementos que seu 1º conjunto terá: '))
+# Entrada:
+print('-'*79)
+print('DIGITE OS ELEMENTOS DO SEU CONJUNTO SEPARADOS POR ESPAÇOS')
+while True:
+    entrada_1 = input('Digite o 1º conjunto: ').split(' ')
+    for elemento in entrada_1:
+        if (elemento.isdigit()):
+            conjunto_1.add(int(elemento))
+        else:
+            print('Entrada inválida! Digite apenas números!')
 
-for i in range(numero_elementos_set_1):
-    entrada = conjunto_1.append(input(f'Digite o {i+1}º nº: '))
+# Processamento:
 
-conjunto_1 = set(conjunto_1)
+# Saída:
 
-
-        
+print('.'*79)
+print('Fim do programa!')
+print('.'*79)
