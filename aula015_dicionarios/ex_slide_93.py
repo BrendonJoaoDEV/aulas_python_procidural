@@ -1,7 +1,7 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma: 0152.
 # Professor: Sebastião Marcos.
-# Data: 24/06/2024.
+# Data: 25/06/2024.
 # Exemplo de dicionários:
 
 import os
