@@ -12,10 +12,10 @@ import os
 os.system('cls')
 
 # Declarações de variáveis:
-flag = True
-conjunto_1 = set()
-conjunto_2 = set()
-diferença_simetrica = []
+conjunto_1 = set
+conjunto_2 = set
+diferenca_simetrica_1 = set
+diferenca_simetrica_2 = set
 
 print('.'*79)
 print('DIFERENÇA SIMÉTRICA')
@@ -23,27 +23,32 @@ print('.'*79)
 
 # Entrada:
 print('-'*79)
-while flag:
-    conjunto_1.add(input('Digite seu 1º conjunto: '))
-    conjunto_2.add(input('Digite seu 2º conjunto: '))
-    for elemento in conjunto_1:
-        if (not(elemento.isdigit())):
-            break
-    else:
-        flag = False
-        continue
-    for elemento in conjunto_2:
-        if (not(elemento.isdigit())):
-            break
-    else:
-        flag = False
-        continue
-    break
-                
 
+while True:
+    conjunto_1 = set(input('Digite seu 1º conjunto: '))
+    conjunto_2 = set(input('Digite seu 2º conjunto: '))
+    if conjunto_1 and conjunto_2: # Verifica se os conjuntos não estão vazios.
+        break
+
+print('-'*79)
 # Processamento:
+# Encontra os elementos que estão em algum dos dois conjuntos mas não em ambos.
+diferenca_simetrica_1 = conjunto_1.symmetric_difference(conjunto_2) # Usando a função symmetric_difference().
+diferenca_simetrica_2 = conjunto_1 ^ conjunto_2 # Usando o operador ^.
+
 
 # Saída:
+print('='*79)
+print(f'Diferença simétrica usando função: ')
+for numero in diferenca_simetrica_1:
+    print(numero, end=', ')
+print()
+print('='*79)
+print(f'Diferença simétrica usando operador: ')
+for numero in diferenca_simetrica_2:
+    print(numero, end=', ')
+print()
+print('='*79)
 
 print('.'*79)
 print('Fim do programa!')

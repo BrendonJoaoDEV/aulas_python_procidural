@@ -61,9 +61,9 @@ while True:
         for elemento in periodica:
             if elemento['simbolo'] == simbolo:
                 novo_simbolo = str(input('Digite o novo símbolo para'
-                                        f' {simbolo} (ou deixe em branco para manter o atual): '))
+                f' {simbolo} (ou deixe em branco para manter o atual): '))
                 novo_nome = str(input('Digite o novo nome para'
-                                        f' {simbolo} (ou deixe em branco para manter o atual): '))
+                f' {simbolo} (ou deixe em branco para manter o atual): '))
 
                 # Atualiza o símbolo e o nome se fornecidos.
                 if novo_simbolo:
@@ -91,6 +91,13 @@ while True:
                 encontrado = True
                 break
         if encontrado:
-            input('\nElemento removido. ENter para continuar...')
+            input('\nElemento removido. Enter para continuar...')
         else:
-            input('\nElemento ')
+            input('\nElemento não encontrado. Enter para continuar...')
+
+    elif opcao == '5':
+        print('Saindo do programa.')
+        break
+
+    else:
+        input('Opção inválida. Enter para tentar novamente...')
