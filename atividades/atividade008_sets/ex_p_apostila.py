@@ -30,11 +30,13 @@ while flag:
         if (not(elemento.isdigit())):
             break
     else:
+        flag = False
         continue
     for elemento in conjunto_2:
         if (not(elemento.isdigit())):
             break
     else:
+        flag = False
         continue
     break
                 

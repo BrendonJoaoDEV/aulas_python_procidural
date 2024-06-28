@@ -1,7 +1,7 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma: 0152.
 # Professor: Sebastião Marcos.
-# Data: 25/06/2024.
+# Data: 26/06/2024.
 # Métodos de dicionários: setdefault() e update().
 
 import os
@@ -40,6 +40,7 @@ while True:
 
     elif opcao == '3':
         # Atualizar o dicionário usando upadate().
+        # novos pares chave-valor no formato: chave1:valor1, chave2:valor2.
         novos_pares = input('Digite os novos pares chave-valor: ')
         novos_pares_lista = novos_pares.split(',')
         novos_dados = {}

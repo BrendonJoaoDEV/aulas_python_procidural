@@ -1,7 +1,7 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma: 0152.
 # Professor: Sebastião Marcos.
-# Data: 25/06/2024.
+# Data: 26/06/2024.
 # Métodos de dicionários: pop() e popitem().
 
 import os
