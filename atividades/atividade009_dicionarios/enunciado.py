@@ -2,15 +2,15 @@
 
 # A) Faça um programa para criar um dicionário com 4 elementos.
 
-# B) Utilizando o exercício anterior,  adicione mais 2 elementos ao dicionário.
+# B) Utilizando o exercício anterior, adicione mais 2 elementos ao dicionário.
 
-# C) Utilizando o exercício anterior , retire um elemento do dicionário.
+# C) Utilizando o exercício anterior  retire um elemento do dicionário.
 
-# D) Faça um programa para criar um dicionário com 5  cores.
-# Depois,  imprima as chaves e os valores deste dicionário.
+# D) Faça um programa para criar um dicionário com 5 cores.
+# Depois, imprima as chaves e os valores deste dicionário.
 
-# E) Faça um programa para criar um dicionário com 5  ferramentas.
-# Depois,  imprima os valores e a quantidade de elementos do dicionário.
+# E) Faça um programa para criar um dicionário com 5 ferramentas.
+# Depois, imprima os valores e a quantidade de elementos do dicionário.
 
 # F) Faça um programa que cadastra 5 tipos de vinho.
 # Para os campos deste cadastro tome como referência nome do vinho, tipo, teor alcoólico e safra.
