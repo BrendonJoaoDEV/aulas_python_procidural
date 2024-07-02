@@ -10,7 +10,7 @@ import os
 
 
 # Limpeza do terminal:
-os.system('clear')
+os.system('cls')
 
 # Declarações de variáveis:
 adega = []
@@ -29,27 +29,28 @@ print('.'*79)
 print('-'*79)
 print('Cadastro de vinhos:')
 for i in range(1, 6):
-  nome = str(input(f'Digite o nome do {i}º vinho: '))
-  tipo = str(input(f'Digite o tipo do {i}º vinho: '))
-  teor = str(input(f'Digite o teor alcoólico do {i}º vinho: '))
-  safra = str(input(f'Digite a safra do {i}º vinho: '))
-  print('-'*79)
-
-  # Processamento de dados:
-  vinho.clear()
-  vinho['nome'] = nome
-  vinho['tipo'] = tipo
-  vinho['teor'] = teor
-  vinho['safra'] = safra
-  adega.append(vinho.copy())
+    nome = str(input(f'Digite o nome do seu {i}º vinho: '))
+    tipo = str(input(f'Digite o tipo do seu {i}º vinho: '))
+    teor = str(input(f'Digite o teor alcoólico do seu {i}º vinho: '))
+    safra = str(input(f'Digite a safra do seu {i}º vinho: '))
+    print('-'*79)
+    
+    # Processamneto de dados:
+    vinho.clear()
+    vinho['nome'] = nome.strip()
+    vinho['tipo'] = tipo.strip()
+    vinho['teor'] = teor.strip()
+    vinho['safra'] = safra.strip()
+    adega.append(vinho.copy())
 
 # Saída de dados:
 print('='*79)
-print('Vinhos da adega:')
+print('Vinhos na adega:')
 for vinho in adega:
-  for chave, valor in vinho.items():
-    print(f'{chave}: {valor}')
-  print('='*79)
+    for chave, valor in vinho.items():
+        print(f'{chave}: {valor}')
+    print('-'*79)
+print('='*79)
 
 print('.'*79)
 print('Fim do programa! Obrigado ;)')
