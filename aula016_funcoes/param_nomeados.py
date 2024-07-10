@@ -17,7 +17,7 @@ def dados_paciente(nome='Coly', nascimento=2005, peso=46 , altura=1.68):
     print('-'*79)
 
 
-def posicional_nomeado(nasicmento, nome='Coly'): # OK! Funciona!!!
+def posicional_nomeado(nascimento, nome='Coly'): # OK! Funciona!!!
     print(f'Bem-vindo(a) ao sistema Senac, {nome}!')
     print(f'O ano de nascimento da {nome} é {nascimento}.')
     print('-'*79)
