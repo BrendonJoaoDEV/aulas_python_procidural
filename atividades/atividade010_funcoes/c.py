@@ -1,7 +1,7 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma: 0152.
 # Data: 11/07/2024.
-# Autor: Brendon João Campoes Neves.
+# Autor: Brendon João Campos Neves.
 # C) Crie uma função que verifica se um aluno está cadastrado
 # ou não em um dicionário. Se estiver cadastrado, imprima o nome desse aluno
 # e o resto dos seus dados. O dicionário deverá conter nome,

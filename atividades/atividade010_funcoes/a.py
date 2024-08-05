@@ -1,7 +1,7 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma: 0152.
 # Data: 11/07/2024.
-# Autor: Brendon João Campoes Neves.
+# Autor: Brendon João Campos Neves.
 # A) Crie uma função que receba uma lista de números.
 # Depois retorne duas listas com os números pares, os números ímpares,
 # a quantidade de números pares e a quantidade de números ímpares.

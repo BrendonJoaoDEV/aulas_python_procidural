@@ -1,7 +1,7 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma: 0152.
 # Data: 11/07/2024.
-# Autor: Brendon João Campoes Neves.
+# Autor: Brendon João Campos Neves.
 # D) Crie uma função que receba uma temperatura em fahrenheit
 # e retorne o valor em graus célsius.
 

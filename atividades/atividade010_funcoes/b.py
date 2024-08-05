@@ -1,7 +1,7 @@
 # Curso de Desenvolvimento de Sistemas.
 # Turma: 0152.
 # Data: 11/07/2024.
-# Autor: Brendon João Campoes Neves.
+# Autor: Brendon João Campos Neves.
 # B) Crie uma função que cadastre o nome de um aluno, a matrícula e
 # a data de nascimento. Depois imprima os resultados cadastrados
 # utilizando uma estrutura de repetição for.
