@@ -6,7 +6,7 @@
 import os
 
 from pacote.modulo_somar import somar
-from pacote.subpacote.modulo_multiplicar import multiplicar
+from pacote.subpacote.modulo_multiplicar import multiplicar as multi
 from pacote.modulo_divisao import dividir
 
 while True:
@@ -23,7 +23,7 @@ while True:
     b = float(b)
     
     resultado_soma = somar(a, b)
-    resultado_produto = multiplicar(a, b)
+    resultado_produto = multi(a, b)
     resultado_divisao, erro = dividir(a, b)
     
     print('-'*79)
