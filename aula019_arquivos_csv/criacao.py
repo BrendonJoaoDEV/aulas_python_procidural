@@ -30,7 +30,7 @@ caminho_arquivo = os.path.join(pasta, arquivo)
 # Abre o arquivo 'arquivo' no modo de escrita ('w').
 # Se o arquivo não existir, ele será criado; se existir, será truncado (esvaziado).
 # newline='': Evita a adição de linhas em branco ectras ao gravar o arquivo em algumas plataformas.
-# os arquivos_csv: Atribui o objeto arquivo ao 'arquivo_csv' para ser usado dentro do bloco with.
+# as arquivos_csv: Atribui o objeto arquivo ao 'arquivo_csv' para ser usado dentro do bloco with.
 with open(arquivo, 'w', newline='') as arquivo_csv:
     
     # Campos = ['nome', 'telefone', 'cidade']: Define a lista de nomes de campos
