@@ -1,7 +1,5 @@
 <h1 align="center">Aulas Python Procidural</h1>
 
-<hr>
-
 <div>
   <p>
   Esse repositório armazena códigos de aulas escritos por Sebastião Marcos e atividades desemvolvidas por Brendon João Campos Neves. <br>
