@@ -9,10 +9,10 @@
   </p>
 </div>
 
-###
+<hr>
 
 <div>
-  <p>
+  <p align="center">
   &copy; Todos os direitos reservados.
   </p>
 </div>
